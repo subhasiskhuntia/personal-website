@@ -9,6 +9,10 @@
     width:700px; 
     margin: 0 auto 0 auto;
 }
+.child-container{
+    width: 90% !important;
+    margin-left: 8% !important;
+}
 @media (max-width: 810px) {
     .step-divider {
       width:100% !important;
@@ -18,5 +22,6 @@
     }
     .child-container{
         width:100% !important;
+        margin-left: 0 !important;
     }
   }
