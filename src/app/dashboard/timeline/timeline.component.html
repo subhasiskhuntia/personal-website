@@ -1,0 +1,19 @@
+<div class="container" style="width:700px; margin: 10px auto 0 auto;">
+    <h4>My Timeline</h4>
+    <div *ngFor="let item of timeLine; let i=index">
+        <div class="w-100 d-flex h-auto">
+            <div class="w-50" [ngStyle]="{'margin-left': i%2==0 ? 'auto' : '0' , 'margin-right': i%2!=0 ? 'auto' : '0' }" >
+                <div class="parent">
+                    <div [ngClass]="i%2==0 ? 'left-border-with-dot':'right-border-with-dot'">
+                        <div class="year">
+                            {{item.year}}
+                        </div>
+                        <div class="title">
+                            {{item.title}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

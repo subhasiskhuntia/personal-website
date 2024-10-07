@@ -1,0 +1,22 @@
+.step-divider {
+    border: none;
+    border-top: 1px solid #ccccccc2; /* Gray line */
+    margin: 0; /* Remove default margin */
+    height: 0; /* Set height to zero */
+    width: 100%; /* Full width */
+    margin-top:10px;
+    margin-bottom: 10px !important;
+    width:700px; 
+    margin: 0 auto 0 auto;
+}
+@media (max-width: 810px) {
+    .step-divider {
+      width:100% !important;
+    }
+    app-sidebar{
+        display: none !important;
+    }
+    .child-container{
+        width:100% !important;
+    }
+  }

@@ -1,0 +1,14 @@
+<div class="d-flex h-100 w-100 mb-5" class="dashboard-container">
+    <app-sidebar style="width:10%" (emitButtonClick)="sideBarButtonClick($event)"></app-sidebar>
+    <div style="width:90%" class="child-container">
+        <app-title id="home"></app-title>
+        <hr class="step-divider">
+        <app-timeline id="timeline"></app-timeline>
+        <hr class="step-divider">
+        <app-projects id="projects"></app-projects>
+        <hr class="step-divider">
+        <app-techstack id="skills"></app-techstack>
+        <hr class="step-divider">
+        <app-techstack type="Uses" id="uses"></app-techstack>
+    </div>
+</div>

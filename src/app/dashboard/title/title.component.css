@@ -1,0 +1,39 @@
+.role{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent */
+    background-clip: text; /* For non-WebKit browsers */
+    text-fill-color: transparent; 
+    margin-top:-40px
+}
+.green-dot{
+    height:20px;
+    width:20px;
+    border-radius: 100%;
+    background-color: green;
+    margin-right: 4px;
+}
+.inverse-margin{
+    margin-top: -25px;
+}
+
+.description {
+    margin-top: 10px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media (max-width: 810px) {
+    .container{
+        width:100% !important;
+    }
+    .inverse-margin,.role{
+        margin-top:10px !important;
+        line-height: 1em !important;
+    }
+    .role{
+        margin-top: 20px !important;
+    }
+  }

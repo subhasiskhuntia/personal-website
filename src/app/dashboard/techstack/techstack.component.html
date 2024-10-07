@@ -1,0 +1,15 @@
+<div style="width:700px; margin: 10px auto 0 auto;" class="container">
+    <h4>
+        {{type}}
+    </h4>
+    <div class="uses-container">
+        <div *ngFor="let item of list" class="use-container d-flex flex-column align-content-center justify-content-center">
+            <div class="image-container mx-auto">
+                <img [src]="item.image" alt="" srcset="" width="50px" height="50px" style="object-fit: cover;">
+            </div>
+            <div class="d-flex mx-auto">
+                <span>{{item.title}}</span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    margin: 0;
+    height: 100vh;
+    background-color: black; /* Black background */
+    background-image: radial-gradient(white 1%, transparent 1%);
+    background-size: 50px 50px; /* Size of the dots */
+    color:white
+}
